@@ -90,7 +90,6 @@ module.exports = function configure(config) {
       }
     },
 
-    failOnEmptyTestSuite: false,
     files,
     frameworks: ['mocha', 'webpack'],
     logLevel: config.LOG_INFO,
